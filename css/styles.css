@@ -198,14 +198,6 @@ img {
 
 /* advantage section style */
 
-.advantage-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 112px;
-    margin-bottom: 8px;
-}
-
 .second-title {
     font-weight: 700;
     font-size: 36px;
@@ -245,6 +237,11 @@ img {
     padding: 24px 100px;
     text-align: center;
     background-color: #f4f4fd;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    margin-bottom: 8px;
 }
 
 .advantage-section .advantage-section-title {
@@ -292,6 +289,10 @@ img {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
+.team-img {
+    width: 100%;
+}
+
 .teammate {
     display: block;
     padding: 32px 16px;
@@ -314,6 +315,7 @@ img {
 
 .social-links-list {
     display: flex;
+    justify-content: center;
     gap: 24px;
     flex-shrink: 0;
 }
@@ -451,10 +453,19 @@ background-color: #2e2f42;
     margin-bottom: 16px;
 }
 
+.social-links-list-items {
+    width: 40px;
+    height: 40px;
+}
+
 .footer-social-list {
     display: flex;
     gap: 16px;
-    padding-top: 100px;
+}
+
+.social-link-footer {
+    width: 100%;
+    height: 100%;
 }
 
 .social-link-footer:hover, .social-link-footer:focus {
